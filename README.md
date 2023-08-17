@@ -12,7 +12,7 @@ Through carefully transforming our data and optimizing our TensorFlow convolutio
 Although the project has been paused, there were a few directions we dicussed we could go with the project. Since the neural network was much better than expected at predicted blinks, we speculated that we could make a program for disabled people to type in morse code with their blinks while using the headset. Another step forward was to train a new neural network to predict certain finger/hand movements which could aid prostetics. The main limiting factor for continuing with one of these visions was the extremely time-consumely data collection that would need to take place for either of these to be accomplished.
 
 ## How to run
-###Requirements
+### Requirements
 * TensorFlow
 * Numpy
 * Pickle
