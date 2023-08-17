@@ -21,5 +21,5 @@ Requirements:
 1. Enter the pathnames of your blink and no_blink data samples into the DataReader.py parameters and adjust the pickle names accordingly.
 2. python3 DataReader.py
 3. Repeat previous steps for the test data you will use to test the model after training
-4. Adjust the pickle pathnames for BlinkNetwork.py in lines 14-15 and 54-55. Run the BlinkNetwork script to see the results.
+4. Adjust the pickle pathnames for BlinkNetwork.py in lines 14-15 and 54-55.
 5. python3 BlinkNetwork.py
