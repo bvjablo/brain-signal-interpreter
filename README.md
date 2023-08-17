@@ -12,7 +12,12 @@ Through carefully transforming our data and optimizing our TensorFlow convolutio
 Although the project has been paused, there were a few directions we dicussed we could go with the project. Since the neural network was much better than expected at predicted blinks, we speculated that we could make a program for disabled people to type in morse code with their blinks while using the headset. Another step forward was to train a new neural network to predict certain finger/hand movements which could aid prostetics. The main limiting factor for continuing with one of these visions was the extremely time-consumely data collection that would need to take place for either of these to be accomplished.
 
 ## How to run
-### Requirements
+Requirements:
+* Python3
 * TensorFlow
 * Numpy
 * Pickle
+
+1. Enter the pathnames of your blink and no_blink data samples into the DataReader.py parameters and adjust the pickle names accordingly. Run the script (python3 DataReader.py).
+2. Repeat previous step for the test data you will use to test the model after training.
+3. Adjust the pickle pathnames for BlinkNetwork.py in lines 14-15 and 54-55. Run the BlinkNetwork script to see the results (python3 BlinkNetwork.py).
