@@ -6,4 +6,7 @@ This was a research project I did the spring semester of my junior year (2023) a
 We gathered hundreds of short data samples that either contained blinks or no blinks, and were labeled accordingly. This binary process (blink or no-blink) made for a very straightforward approach to data collection and allowed us to test proof of concept before moving to more complex applications. 
 
 ## Results
-After training our model with some slight optimization changes, we were extremely excited to see that the model was able to predict whether or not a sample contained a blink with over a 99% success rate.
+Trough carefully transforming our data and optimizing our TensorFlow convolutional neural network, we were able to train a model to predict human blinks with over a 99% success rate.
+
+## Future Applications
+Although the project has been paused, there were a few directions we dicussed we could go with the project. Since the neural network was much better than expected at predicted blinks, we speculated that we could make a program for disabled people to type in morse code with their blinks while using the headset. Another step forward was to train a new neural network to predict certain finger/hand movements which could aid prostetics. The main limiting factor for continuing with one of these visions was the extremely time-consumely data collection that would need to take place for either of these to be accomplished.
